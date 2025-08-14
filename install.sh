@@ -2,7 +2,6 @@
 set -e
 
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y zsh git curl docker.io docker-compose
 
 export RUNZSH=no CHSH=no
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
