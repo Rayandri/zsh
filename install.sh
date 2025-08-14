@@ -2,7 +2,7 @@
 set -e
 
 sudo apt update && sudo apt upgrade -y
-sudo apt install zsh
+sudo apt install zsh -y
 
 export RUNZSH=no CHSH=no
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
