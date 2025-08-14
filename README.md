@@ -13,7 +13,7 @@ No way back. No negotiations.
 Once you’re in the target environment:
 
 ```bash
-git clone https://github.com/Rayandri/zsh
+git clone https://github.com/Rayandri/zsh.git
 cd zsh
 bash install.sh
 ````
